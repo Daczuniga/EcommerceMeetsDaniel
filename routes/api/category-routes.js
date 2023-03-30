@@ -7,6 +7,7 @@ router.get('/', (req, res) => {
   // find all categories
   res.json({message:"made it here"})
   // be sure to include its associated Products
+  
 });
 
 router.get('/:id', (req, res) => {
